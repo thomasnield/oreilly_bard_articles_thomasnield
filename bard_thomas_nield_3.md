@@ -7,7 +7,7 @@ Let's start simple. I have this simple R code declaring and printing a vector. I
 ```R
 s <- c('apple','red',5,TRUE)
 print(s)
-
+```
 
 I can prompt Google Bard to convert it to Python like this. Note I am pasting the code into a triple-ticks ``` block: 
 
@@ -62,7 +62,7 @@ dbClearResult(my_query)
 remove(my_query)
 dbDisconnect(db)
 print(my_data)
-
+```
 
 There's a lot going on here in this script. Let's see if Bard can convert it into Python without any hand-holding, and if it figures out which libraries to use too.
 
@@ -112,7 +112,7 @@ x <- c(5,7,8,7,2,2,9,4,11,12,9,6)
 y <- c(99,86,87,88,111,103,87,94,78,77,85,86)
 
 plot(x, y)
-
+```
 
 
 **PROMPT:**
