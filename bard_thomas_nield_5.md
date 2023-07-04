@@ -42,8 +42,8 @@ Of course, in person I could say this in a much calmer and gentler tone. But the
 >Offer to help the recipient resolve the issue.
 >End the email on a positive note.
 >I hope this helps!
->
->This is pretty good! It not only rewrote the email in a more polite and solution-focused way, but it provided some helpful tips that might help my soft skills. I can take this as-is, or make manual tweaks to fit the voice and message I want to portray.
+
+This is pretty good! It not only rewrote the email in a more polite and solution-focused way, but it provided some helpful tips that might help my soft skills. I can take this as-is, or make manual tweaks to fit the voice and message I want to portray.
 
 Conversely, let's say I have the opposite problem of needing to be more assertive. I am waiting on my coworker Carl to provide feedback on a contract renewal for a client. He said he would get to it a few times but now the deadline is looming. My typical message to him would be something like this: 
 
