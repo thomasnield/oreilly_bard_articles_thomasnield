@@ -7,16 +7,16 @@ Let's start simple. I have this simple R code declaring and printing a vector. I
 ```R
 s <- c('apple','red',5,TRUE)
 print(s)
-```
+
 
 I can prompt Google Bard to convert it to Python like this. Note I am pasting the code into a triple-ticks ``` block: 
 
 **PROMPT:**
 
-```
-Can you convert this R code into Python code? ```s <- c('apple','red',5,TRUE)
-print(s)```
-```
+
+>Can you convert this R code into Python code? ```s <- c('apple','red',5,TRUE)
+>print(s)```
+
 
 **OUTPUT:**
 
@@ -31,9 +31,8 @@ This is a great start, but let's say I wanted to using Pandas rather than a plai
 
 **PROMPT:**
 
-```
-Awesome, can you use Pandas to do that task? 
-```
+>Awesome, can you use Pandas to do that task? 
+
 
 **OUTPUT:**
 
@@ -63,27 +62,27 @@ dbClearResult(my_query)
 remove(my_query)
 dbDisconnect(db)
 print(my_data)
-```
+
 
 There's a lot going on here in this script. Let's see if Bard can convert it into Python without any hand-holding, and if it figures out which libraries to use too.
 
 **PROMPT:**
 
-```
-Can you convert this R script into a Python script? ```library(DBI)
-library(RSQLite)
 
-db <- dbConnect(SQLite(), dbname='thunderbird_manufacturing.db')
+>Can you convert this R script into a Python script? ```library(DBI)
+>library(RSQLite)
+>
+>db <- dbConnect(SQLite(), dbname='thunderbird_manufacturing.db')
+>
+>my_query <- dbSendQuery(db, "SELECT * FROM CUSTOMER LIMIT 1")
+>my_data <- dbFetch(my_query, n = 1)
+>
+>dbClearResult(my_query)
+>
+>remove(my_query)
+>dbDisconnect(db)
+>print(my_data)```
 
-my_query <- dbSendQuery(db, "SELECT * FROM CUSTOMER LIMIT 1")
-my_data <- dbFetch(my_query, n = 1)
-
-dbClearResult(my_query)
-
-remove(my_query)
-dbDisconnect(db)
-print(my_data)```
-```
 
 **RESPONSE:**
 
@@ -113,17 +112,17 @@ x <- c(5,7,8,7,2,2,9,4,11,12,9,6)
 y <- c(99,86,87,88,111,103,87,94,78,77,85,86)
 
 plot(x, y)
-```
+
 
 
 **PROMPT:**
 
-```
-Convert this r code to python using matplotlib ```x <- c(5,7,8,7,2,2,9,4,11,12,9,6)
-y <- c(99,86,87,88,111,103,87,94,78,77,85,86)
 
-plot(x, y)```
-```
+>Convert this r code to python using matplotlib ```x <- c(5,7,8,7,2,2,9,4,11,12,9,6)
+>y <- c(99,86,87,88,111,103,87,94,78,77,85,86)
+>
+>plot(x, y)```
+
 
 **OUTPUT:**
 
@@ -154,23 +153,23 @@ df_new <- df[-c(1), -c(1)]
 
 # Print the new data frame
 df_new 
-```
+
 
 **PROMPT:**
 
-```
-Convert this r code to python using pandas: ```df <- data.frame (
-  Length = c(200, 110, 80),
-  Width = c(100, 150, 120),
-  Height = c(60, 30, 45)
-)
 
-# Remove the first row and column
-df_new <- df[-c(1), -c(1)]
+>Convert this r code to python using pandas: ```df <- data.frame (
+>  Length = c(200, 110, 80),
+>  Width = c(100, 150, 120),
+>  Height = c(60, 30, 45)
+>)
+>
+># Remove the first row and column
+>df_new <- df[-c(1), -c(1)]
+>
+># Print the new data frame
+>df_new ```
 
-# Print the new data frame
-df_new ```
-```
 
 **OUTPUT:**
 
