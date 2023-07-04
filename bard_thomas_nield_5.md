@@ -49,8 +49,8 @@ Conversely, let's say I have the opposite problem of needing to be more assertiv
 
 >"Hey how's it going, Carl? I was wondering, when you have the time and it is not an inconvenience, to provide your feedback on that contract renewal with the client. Thank you as always!"
 >
->Normally there is nothing wrong with framing requests this way, but if you are not getting results you may have to change your language. It can be exhausting for some people to take a crash-course on the art of negotiating and being more assertive, so let's just outsource that to Bard. 
->
+Normally there is nothing wrong with framing requests this way, but if you are not getting results you may have to change your language. It can be exhausting for some people to take a crash-course on the art of negotiating and being more assertive, so let's just outsource that to Bard. 
+
 **PROMPT:**
 
 >Rewrite this email to be a little more assertive: "Hey how's it going, Carl? I was wondering, when you have the time and it is not an inconvenience, to provide your feedback on that contract renewal with the client. Thank you as always!" 
