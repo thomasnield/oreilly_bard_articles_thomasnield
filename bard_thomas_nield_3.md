@@ -153,7 +153,7 @@ df_new <- df[-c(1), -c(1)]
 
 # Print the new data frame
 df_new 
-
+```
 
 **PROMPT:**
 
