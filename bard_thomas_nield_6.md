@@ -4,7 +4,7 @@ If there is one thing that LLM's like Bard (usually) do well, it is taking two i
 
 Let's think of a critical and yet boring topic... oh, I know! How about monetary policy? Given the headlines about Jerome Powell, interest rates, the effect on jobs and markets, [as well as being a causal factor for wealth inequality](https://www.youtube.com/watch?v=EpMLAQbSYAw) this is something people should talk about more. How do we do that? What is something fun and over-the-top that contradicts something dry and boring? 
 
-Well, I think the answer is obvious: take the issue and present it as a 90's style toy action figure commercial! Let's prompt Bard to do just that. Note, I have found that if you intend the output to be funny then make sure you communicate that in your prompt too. 
+Well, I think the answer is obvious: take the issue of monetary policy and present it as a 90's style toy action figure commercial! Let's prompt Bard to do just that. Note, I have found that if you intend the output to be funny then make sure you communicate that in your prompt too. 
 
 **PROMPT:**
 
