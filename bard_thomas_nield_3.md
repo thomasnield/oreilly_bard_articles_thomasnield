@@ -156,18 +156,17 @@ df_new
 ```
 
 **PROMPT:**
-
-
->Convert this r code to python using pandas: ```df <- data.frame (
+>Convert this r code to python using pandas: ```r
+>df <- data.frame (
 >  Length = c(200, 110, 80),
 >  Width = c(100, 150, 120),
 >  Height = c(60, 30, 45)
 >)
 >
-># Remove the first row and column
+> # Remove the first row and column
 >df_new <- df[-c(1), -c(1)]
 >
-># Print the new data frame
+> # Print the new data frame
 >df_new
 >```
 
