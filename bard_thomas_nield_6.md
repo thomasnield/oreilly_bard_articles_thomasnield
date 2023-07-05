@@ -10,6 +10,8 @@ Well, I think the answer is obvious: take the issue and present it as a 90's sty
 
 > Script a funny 90s style kids toy commercial for a Jerome Powell action figure.
 
+**RESPONSE:**
+
 >Sure, here is a funny 90s style kids toy commercial for a Jerome Powell action figure:
 >
 >Scene 1:
