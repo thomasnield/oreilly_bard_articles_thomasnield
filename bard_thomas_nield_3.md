@@ -27,7 +27,7 @@ I can prompt Google Bard to convert it to Python like this. Note I am pasting th
 >```
 >The Python code is equivalent to the R code in terms of functionality. It creates a list called `s` that contains the elements `'apple'`, `'red'`, `5`, and `True`. Then, it prints the contents of the list `s`.
 
-This is a great start, but let's say I wanted to using Pandas rather than a plain Python list. I can continue to prompt and ask for this change. 
+This is a great start, but let's say I wanted to use Pandas rather than a plain Python list. I can continue to prompt and ask for this change. 
 
 **PROMPT:**
 
