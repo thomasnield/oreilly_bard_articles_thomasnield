@@ -8,7 +8,7 @@ Being overly busy with sprint deadlines, my first impulse would be to send a blu
 
 >"Hey you just committed code to the production branch that was full of bugs, failed unit tests, and would have practically crashed our server. You have to do better than this!"
 
-Of course, in person I could say this in a much calmer and gentler tone. But the thing about email is it does not convey tone well, and this could have been read as practically yelling. Being an overworked senior software developer not wanting to spend 15 minutes belaboring a diplomatically-worded email, I can turn to Bard for help. Let's ask it to rewrite our email in a more diplomatic tone. 
+Of course, in person I could say this in a much calmer and gentler tone. But the thing about email is it does not convey tone well, and this could have been read as practically yelling. Not wanting to spend 15 minutes belaboring a diplomatically-worded email, I can turn to Bard for help. Let's ask it to rewrite our email in a more diplomatic tone. 
 
 **PROMPT:**
 >Rewrite this email to be more diplomatic: "Hey you just committed code to the production branch that was full of bugs, failed unit tests, and would have practically crashed our server. You have to do better than this!"
