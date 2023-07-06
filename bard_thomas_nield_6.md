@@ -4,7 +4,7 @@ If there is one thing that LLM's like Bard (usually) do well, it is taking two i
 
 Let's think of a critical and yet boring topic... oh, I know! How about monetary policy? Given the headlines about [Jerome Powell, inflation interest rates, the effect on jobs and markets, and wealth inequality](https://www.youtube.com/watch?v=EpMLAQbSYAw) this is something people should talk about more. How do we do that? What is something fun and over-the-top that contradicts something dry and boring? 
 
-Well, I think the answer is obvious: take the issue of monetary policy and present it as a 90's style toy action figure commercial! Let's prompt Bard to do just that. Note, I have found that if you intend the output to be funny then make sure you communicate that in your prompt too. 
+Well, I think the answer is obvious: take the issue of monetary policy and present it as a 90's style toy action figure commercial! Let's prompt Bard to do just that. 
 
 **PROMPT:**
 
@@ -126,4 +126,4 @@ Regardless, we can remedy this with some further prompting. Let's also introduce
 
 Okay, the third scene is much better. The visual of three kids playing with Jerome Powell and Wall Street Man action figures, and puppeting them in a battle of interest rates and taper tantrums is just comedic perfection. Massage this script a bit, get a small production budget, and you will have some high-quality YouTube or late-night content right here. 
 
-To emphasize again, LLM's like Bard can do quite well merging two ideas together. If you take two things that normally do not go together (e.g. monetary policy and 90's toy commercials) you can create pretty original content. Even more, it can be an effective tool for exploring ideas and seeing if there is potential to lean into them more. To prevent bland and cliche outputs, do not be afraid to nudge the model with specific prompts and ideas (e.g. Wall Street Man having the "Taper Tantrum" superpower). Also, know when to continue iterating the model versus taking over manually and build on the material you have. 
+To emphasize again, LLM's like Bard can do quite well merging two ideas together. If you take two things that normally do not go together (e.g. monetary policy and 90's toy commercials) you can create pretty original content. Even more, it can be an effective tool for exploring ideas and seeing if there is potential to lean into them more. To prevent bland and cliche outputs, do not be afraid to nudge the model with specific prompts and ideas (e.g. Wall Street Man having the "Taper Tantrum" superpower). Be explicit about the qualities you are looking for in the prompt (is it serious, funny, sad, over-the-top, etc?). Finally, know when to continue iterating the model versus taking over manually and build on the material you have. 
