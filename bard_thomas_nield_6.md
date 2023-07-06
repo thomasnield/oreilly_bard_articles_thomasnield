@@ -124,4 +124,6 @@ Regardless, we can remedy this with some further prompting. Let's also introduce
 >
 >On-screen text: The Jerome Powell action figure. Only at Toys R Us.
 
-Okay, I am dead now. That thir dsce
+Okay, the third scene is much better. The visual of three kids playing with Jerome Powell and Wall Street Man action figures, and puppeting them in a battle of interest rates and taper tantrums is just comedic perfection. Massage this script a bit, get a small production budget, and you will have some high-quality YouTube or late-night content right here. 
+
+To emphasize again, LLM's like Bard can do quite well merging two ideas together. If you take two things that normally do not go together (e.g. monetary policy and 90's toy commercials) you can create pretty original content. Even more, it can be an effective tool for exploring ideas and seeing if there is potential to lean into them more. Now we know we can get more people interested in monetary policy and improve our democracy, by leveraging the artform of comedy and satire with the help of Bard. 
