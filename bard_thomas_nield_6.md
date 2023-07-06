@@ -1,4 +1,4 @@
-## Use Bard to Merge Ideas and Satire 
+## Use Bard to Merge Ideas and Create Satire 
 
 If there is one thing that LLM's like Bard (usually) do well, it is taking two ideas and merging them together into something amusing. Satire is a good application for this, but to use Bard it helps to have an original thought on what two ideas to merge. After that though, you can get some surprisingly good results that can further spark your creativity. 
 
