@@ -2,7 +2,7 @@
 
 If there is one thing that LLM's like Bard (usually) do well, it is taking two ideas and merging them together into something amusing. Satire is a good application for this, but to use Bard it helps to have an original thought on what two ideas to merge. After that though, you can get some surprisingly good results that can further spark your creativity. 
 
-Let's think of a critical and yet boring topic... oh, I know! How about monetary policy? Given the headlines about [Jerome Powell, inflation, interest rates, the effect on jobs and markets, and wealth inequality](https://www.youtube.com/watch?v=EpMLAQbSYAw) this is something people should talk about more. How do we do that? What is something fun and over-the-top that contradicts something dry and boring? 
+Let's think of a critical and yet boring topic... oh, I know! How about monetary policy? Given the headlines about [Jerome Powell, inflation, interest rates, the effect on jobs and markets, and wealth inequality](https://www.youtube.com/watch?v=EpMLAQbSYAw) this is something people and politicians should talk about more. How do we do that? What is something fun and over-the-top that contradicts something dry and boring? 
 
 Well, I think the answer is obvious: take the issue of monetary policy and present it as a 90's style toy action figure commercial! Let's prompt Bard to do just that. 
 
