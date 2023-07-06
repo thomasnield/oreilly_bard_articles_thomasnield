@@ -55,7 +55,7 @@ Well, I think the answer is obvious: take the issue of monetary policy and prese
 >
 >On-screen text: The Jerome Powell action figure. Only at Toys R Us.
 
-Okay, if you are nerd like me on these kinds of issues, you are probably rolling on the floor at the first two scenes. The third scene however is a little awkward. Granted, I can explain the reason the kids are partying is because when the Fed lowers interest rates and makes free money, it essentially causes the markets to "party." It is when interest rates are raised that the proverbial "punch bowl" is taken away because things get too out of hand. So Bard had some valid inspiration for creating this scene. However, I think Bard failed to infer that kids partying and drinking is a little innappropriate. 
+Okay, if you are nerd like me on these kinds of issues, you are probably rolling on the floor at the first two scenes. The third scene however is a little awkward. Granted, I can explain the reason the kids are partying is because when the Fed lowers interest rates and makes free money, it essentially causes the markets and Wall Street to party. It is when interest rates are raised that the proverbial "punch bowl" is taken away because things get too out of hand. So Bard pulled some valid source material for creating this scene. However, I think Bard failed to infer that kids partying and drinking is a little innappropriate. 
 
 Regardless, we can remedy this with some further prompting. Let's also introduce a villain for Jerome Powell called Wall Street Man, who has a special power called [Taper Tantrum](https://www.investopedia.com/terms/t/taper-tantrum.asp). 
 
