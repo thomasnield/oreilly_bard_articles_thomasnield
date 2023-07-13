@@ -59,7 +59,7 @@ Let's take a scammy Nigerian Prince-style email and ask Bard to create a time-wa
 >
 >I hope this helps!
 
-Now let's say we send that response, and a day later we get this in our exchange (note this is a simulated response, not an actual exchange I had): 
+Okay, that last line with Bard commentating "This will likely frustrate the scammer and make them less likely to waste their time on you" does not exactly reflect my intentions. I want the scammer to more likely (not less likely) waste their time on me. But let's just see where this goes. Let's say we send that response, and a day later we get this in our exchange (note this is a simulated response, not an actual exchange I had): 
 
 >Dear [Your Name],
 >
