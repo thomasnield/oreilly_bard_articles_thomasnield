@@ -95,3 +95,31 @@ def main():
 if __name__ == "__main__":
     main()
 ```
+
+You do not know what you do not know, and Bard can help highlight security concerns you may not have been aware of. This does not mean Bard will identify every security issue (and you should assume it will not), but the ones it does point out will give you knowledge immediately on what needs to be fixed. To find further corner cases that Bard might be missing, you can always do further code analysis and talk to more experienced peers later. But at least you can get the glaring issues resolved with Bard first. 
+
+But while we are here, we might as well maximize Bard by asking it what other issues it might be overlooking. 
+
+**PROMPT:**
+
+> What other security issues should I watch out for that Bard might not have captured here? 
+
+**RESPONSE:**
+
+>Sure, here are some other security issues that you should watch out for in Python code:
+>
+>* Directory traversal attacks: These attacks allow an attacker to access files and directories that they should not be able to access. This can be done by injecting malicious code into a URL or by exploiting a vulnerability in the code.
+>* Insecure deserialization: This is a vulnerability that allows an attacker to inject malicious code into a serialized object. This can be done by exploiting a vulnerability in the code or by sending a malicious serialized object to the application.
+>* Remote code execution (RCE): This is a serious vulnerability that allows an attacker to execute arbitrary code on the target system. This can be done by exploiting a vulnerability in the code or by sending a malicious file to the application.
+>* XML external entity (XXE) attacks: These attacks allow an attacker to read arbitrary files on the target system. This can be done by exploiting a vulnerability in the code or by sending a malicious XML document to the application.
+>* Insecure cryptographic libraries: These libraries can be vulnerable to various attacks, such as man-in-the-middle attacks and brute-force attacks. It is important to use secure cryptographic libraries and to keep them up to date.
+>
+>In addition to these specific vulnerabilities, there are also some general security best practices that you should follow when writing Python code. These include:
+>
+>* Sanitizing all user input: This is the most important security best practice. All user input should be sanitized before it is used in the code. This will help to prevent attackers from injecting malicious code into the application.
+>* Using prepared statements: Prepared statements are a secure way to execute SQL queries. They help to prevent SQL injection attacks.
+>* Keeping your code up to date: It is important to keep your code up to date with the latest security patches. This will help to protect your application from known vulnerabilities.
+>* Using a secure development environment: A secure development environment will help to prevent attackers from gaining access to your code. This includes using a firewall, antivirus software, and other security measures.
+>I hope this helps! Let me know if you have any other questions.
+
+Okay, this is helpful. These are the kinds of personal growth tasks that makes Bard useful. Bard may not provide perfect information but it provides quick leads we can easily follow up and verify, and give us further topics for our own growth and research. Bard is not going to take your job as a developer, but it can certainly assist you! 
