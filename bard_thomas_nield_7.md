@@ -2,7 +2,7 @@
 
 One concern folks have with generative AI is the possiblity of its misuse for the purposes of spamming and scamming. However, what if we can use generative AI to fight this very problem?  
 
-Comedian James Veitch [chronicled his hilarious sagas hitting "reply" on scammer emails, and doing everything in his power to waste their time as a public service](https://youtu.be/usiyADqD7XQ). A [service called Re:scam (by company Netsafe)](https://www.youtube.com/watch?v=jPajqAJWiNA) attempted to do the same task in 2017. However, it used a large language model to automate replying to scam emails. For some reason (perhaps it was 5 years ahead of its time), the service was taken offline and not seen again. Somebody needs to take up this mantle, and Bard is equipped to do this job. 
+Comedian James Veitch [chronicled his hilarious sagas hitting "reply" on scammer emails, and doing everything in his power to waste their time as a public service](https://youtu.be/usiyADqD7XQ). A service called [Re:scam (by company Netsafe)](https://www.youtube.com/watch?v=jPajqAJWiNA) attempted to do the same task in 2017. However, it used a large language model to automate replying to scam emails. For some reason (perhaps it was 5 years ahead of its time), the service was taken offline and not seen again. Somebody needs to take up this mantle, and Bard is equipped to do this job. 
 
 Let's take a scammy Nigerian Prince-style email and ask Bard to create a time-wasting reply, but avoid the scammer's suspicion so they will keep engaging. The value of wasting the scammer's time is it keeps them from  scamming an actual victim instead. For our own entertainment, let's also make it funny. 
 
