@@ -1,6 +1,6 @@
 ## Use Bard to Identify Code Vulnerabilites
 
-When using LLM's like Bard, a helpful task they can assist is taking a "first pass" at something. What I mean by this is you cannot replace a real "expert" with Bard but you can have it take a first stab at a given task. One such area is security. For example, let's say I have this Python code I plan on using for a web service. 
+When using LLM's like Bard, a helpful task they can assist is taking a "first pass" at something. What I mean by this is Bard cannot replace a real "expert" on a given topic, but you can have it take a first stab at assessing a task. One such area is code security and finding vulnerabilities. For example, let's say I have this Python code I plan on using for a web service. 
 
 ```python
 from sqlalchemy import create_engine, text
