@@ -78,7 +78,7 @@ Now let's say we send that response, and a day later we get this in our exchange
 >Sincerely,
 >Miss Caroline Freund
 
-Oh let's have some fun here. Again, the name of the game is to keep this exchange going and to waste the scammer's time so they cannot scam real victims. If he is in danger, we obviously need codenames and disguises. 
+Oh let's have some fun here. Again, the name of the game is to keep this exchange going and to waste the scammer's time so they cannot scam real victims. If they are in danger, we obviously need codenames and disguises. 
 
 **PROMPT:**
 
