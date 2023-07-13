@@ -121,4 +121,4 @@ While we are here, we might as well maximize Bard by asking it what other issues
 >* Using a secure development environment: A secure development environment will help to prevent attackers from gaining access to your code. This includes using a firewall, antivirus software, and other security measures.
 >I hope this helps! Let me know if you have any other questions.
 
-Okay, this is helpful. These are the kinds of personal growth tasks that makes Bard useful. Bard may not provide perfect information but it provides quick leads we can easily follow up and verify, and give us further topics for our own growth and research. Bard is not going to take your job as a developer, but it can certainly assist you! 
+Okay, this is helpful. These are the kinds of personal growth tasks that make Bard useful. Bard may not provide perfect information but it provides quick leads we can easily follow up and verify, and give us further topics for our own growth and research. Bard is not going to take your job as a developer, but it can certainly assist you! 
