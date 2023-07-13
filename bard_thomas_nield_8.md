@@ -25,7 +25,6 @@ I want to see if there are any security vulnerabilities in it. Let's see what Ba
 >def customer_for_id(customer_id):
 >    stmt = te x t("SELECT * FROM CUSTOMER WHERE CUSTOMER_ID = " + cu stomer_id)
 >    return conn.execute(stmt).first()
->```
 
 **RESPONSE:**
 
