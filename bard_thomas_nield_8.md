@@ -97,7 +97,7 @@ if __name__ == "__main__":
 
 You do not know what you do not know, and Bard can help highlight security concerns you may not have been aware of. This does not mean Bard will identify every security issue (and you should assume it will not), but the ones it does point out will give you knowledge immediately on what needs to be fixed. To find further corner cases that Bard might be missing, you can always do further code analysis and talk to more experienced peers later. But at least you can get the glaring issues resolved with Bard first. 
 
-But while we are here, we might as well maximize Bard by asking it what other issues it might be overlooking. 
+While we are here, we might as well maximize Bard by asking it what other issues it might be overlooking. 
 
 **PROMPT:**
 
