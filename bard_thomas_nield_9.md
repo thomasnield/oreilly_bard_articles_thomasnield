@@ -169,4 +169,4 @@ Sure enough, our render shows success:
 
 ![](https://latex.codecogs.com/svg.latex?%5Cdpi%7B120%7D%20%5Cmathbf%7BA%7D%20%3D%20%5Cbegin%7Bbmatrix%7D%200%20%26%20%5Csigma%20%26%203%20%5C%5C%203%20%26%205%20%26%202x%20&plus;%201%20%5C%5C%206%20%26%20%5Cdelta%20%26%205%20%5Cend%7Bbmatrix%7D) 
 
-Awesome. We can use Bard to navigate esoteric languages like math LaTex and describe verbally what we want to create. Along the way, we can learn this syntax by studying the outputs, and copy/paste the expressions into their destination document. 
+In conclusion, we can use Bard to navigate esoteric languages like math LaTex and describe verbally what we want to create. Along the way, we can learn this syntax by studying the outputs, and copy/paste the expressions into their destination document. We can also iterate and manipulate changes to the math LaTex code by using language we are comfortable with. It is like having your own writing assistant who knows mathematical notation *and* math LaTex! 
