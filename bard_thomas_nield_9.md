@@ -2,9 +2,9 @@
 
 One of the more esoteric declarative languages out there is [LaTex for mathematics](https://en.wikibooks.org/wiki/LaTeX/Mathematics). It allows creating and formatting mathematical expressions for documents, books, and other publications. Increasingly it has found usage outside the halls of academia, especially since it is now supported on [Github markdown](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/writing-mathematical-expressions) and Jupyter notebooks. As more people become involved in machine learning and data science, math LaTex becomes increasingly useful to more folks. 
 
-However, Math LaTex has a [bit of a learning curve](https://www.overleaf.com/learn/latex/Mathematical_expressions) and you may only have so much time to learn so many things. Thankfully, we can try to describe to Bard what we want to express mathematically and get a Math LaTex expression out of it. 
+However, Math LaTex has a [bit of a learning curve](https://www.overleaf.com/learn/latex/Mathematical_expressions) and your time may be limited to learn yet something else. Thankfully, we can try to describe to Bard what we want to express mathematically and get a Math LaTex expression made for us. 
 
-Let's say we want to take the fraction $ \frac{x^2}{3} $ and express it as math LaTex. Let's try to describe that expression to Bard and ask it to create some Math LaTex out of it: 
+Let's start simple. Say we want to take the fraction $ \frac{x^2}{3} $ and express it as math LaTex. Let's try to describe that expression to Bard and ask it to create some Math LaTex out of it: 
 
 **PROMPT:**
 
