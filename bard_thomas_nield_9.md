@@ -117,11 +117,11 @@ Let's do something a bit more specific. When I learned math LaTex, I always had 
 >
 >I hope this helps! Let me know if you have any other questions.
 
-That math latex will render like this. Pretty cool that I was able to describe the matrix in plain English and it created the Math LaTex for me. 
+That math latex will render like this: 
 
 ![](https://latex.codecogs.com/svg.latex?%5Cdpi%7B120%7D%20%5Cmathbf%7BA%7D%20%3D%20%5Cbegin%7Bpmatrix%7D%200%20%26%202%20%26%203%20%5C%5C%203%20%26%205%20%26%201%20%5C%5C%206%20%26%204%20%26%205%20%5Cend%7Bpmatrix%7D%5C)
 
-Now let's say I want to replace two of the digits with two Greek symbols, and also to use square brackets rather than round brackets. 
+Pretty cool that I was able to describe the matrix in plain English and it created the Math LaTex for me. Now let's say I want to replace two of the digits with two Greek symbols, and also to use square brackets rather than round brackets. 
 
 **PROMPT:**
 
@@ -145,3 +145,28 @@ Here is how it now renders. Sure enough, we got exactly what we asked for!
 
 ![](https://latex.codecogs.com/svg.latex?%5Cdpi%7B120%7D%20%5Cmathbf%7BA%7D%20%3D%20%5Cbegin%7Bbmatrix%7D%200%20%26%20%5Csigma%20%26%203%20%5C%5C%203%20%26%205%20%26%201%20%5C%5C%206%20%26%20%5Cdelta%20%26%205%20%5Cend%7Bbmatrix%7D) 
 
+You can also tell it to replace an element at a specific location in the matrix. 
+
+**PROMPT:**
+
+> Good! Can you replace the third element in the second row with the expression 2x + 1? 
+
+**RESPONSE:**
+
+>Sure, here is the code to declare a matrix A in math LaTeX that is 3 x 3 in dimensions, where the first row is 0, σ, and 3. The second row is 3, 5, and 2x + 1. The third row is 6, δ, and 5:
+>
+>```
+>\[\mathbf{A} = \begin{bmatrix}
+>0 & \sigma & 3 \\
+>3 & 5 & 2x + 1 \\
+>6 & \delta & 5
+>\end{bmatrix}\]
+>```
+>
+>The only difference between this code and the previous code is that we have replaced the third element in the second row with the expression 2x + 1.
+
+Sure enough, our render shows success: 
+
+![](https://latex.codecogs.com/svg.latex?%5Cdpi%7B120%7D%20%5Cmathbf%7BA%7D%20%3D%20%5Cbegin%7Bbmatrix%7D%200%20%26%20%5Csigma%20%26%203%20%5C%5C%203%20%26%205%20%26%202x%20&plus;%201%20%5C%5C%206%20%26%20%5Cdelta%20%26%205%20%5Cend%7Bbmatrix%7D) 
+
+Awesome. We can use Bard to navigate esoteric languages like math LaTex and describe verbally what we want to create. Along the way, we can learn this syntax by studying the outputs, and copy/paste the expressions into their destination document. 
