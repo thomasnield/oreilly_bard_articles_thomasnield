@@ -4,7 +4,7 @@ One of the more esoteric declarative languages out there is [LaTex for mathemati
 
 However, Math LaTex has a [bit of a learning curve](https://www.overleaf.com/learn/latex/Mathematical_expressions) and your time may be limited to learn yet something else. Thankfully, we can try to describe to Bard what we want to express mathematically and get a Math LaTex expression made for us. 
 
-Let's start simple. Say we want to take the fraction `x^2/3` and express it as math LaTex. Let's try to describe that expression to Bard and ask it to create some Math LaTex out of it: 
+Let's start simple. Say we want to take the fraction `x^2/3` and express it as math LaTex. Let's try to describe that expression to Bard and ask it to create some math LaTex out of it: 
 
 **PROMPT:**
 
