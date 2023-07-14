@@ -4,7 +4,7 @@ When I started to use LLM's like Bard, some of the most fun I had was having it 
 
 The key though, like any task, is to provide a prompt with specific guidance to do something original and interesting... rather than giving a generic prompt that will produce generic results. For example, if I ask it "Write another episode of the TV show Frasier," I am probably going to get predictable and bland results. It is better I prompt to put Frasier in a new situation, like his favorite coffee shop Cafe Nervosa being taken over by hipsters (which yes, was pretty funny to read!) 
 
-Let's do this example. The TV show Yellowstone (starring Kevin Costner as the patriarch of an eponymous ranch in Montana) been a massive hit in the United States. It has prompted a number of spinoffs like 1883 and 1923, which serve as origin stories of previous generations of the Dutton family managing the ranch. Wouldn't it be awesome if there was another spinoff called 2083, which takes place in the future and Keanu Reeves stars as the new patriarch in a cyberpunk western? Let's do it! 
+Let's do this example. The TV show Yellowstone (starring Kevin Costner as the patriarch of an eponymous ranch in Montana) has been a massive hit in the United States. It has prompted a number of spinoffs like 1883 and 1923, which serve as origin stories of previous generations of the Dutton family managing the ranch. Wouldn't it be awesome if there was another spinoff called 2083, which takes place in the future and Keanu Reeves stars as the new patriarch in a cyberpunk western? Let's do it! 
 
 **PROMPT:**
 
