@@ -50,7 +50,8 @@ This plot is pretty strong, and I think we got everything we need on that front 
 >* The ranch could be a sprawling complex of buildings, fences, and corrals, with a mix of traditional western and futuristic elements. The buildings could be made of wood and stone, but they could also have features like solar panels and holographic displays.
 >* The people could be dressed in a mix of western and cyberpunk clothing. They might wear cowboy hats and boots, but they might also wear leather jackets and goggles.
 >* The vehicles could be a mix of traditional western vehicles like horses and wagons, and futuristic vehicles like hover bikes and flying cars.
->*Here are some specific examples of how these visual qualities could be used:
+>
+>Here are some specific examples of how these visual qualities could be used:
 >
 >* The ranch could be located in a remote desert valley, surrounded by mountains and mesas. The buildings could be made of adobe and stone, with solar panels on the roofs. The people could wear traditional cowboy clothing, but they might also wear leather jackets and goggles to protect themselves from the sun and dust. They might ride horses, but they might also use hover bikes to get around.
 >* The ranch could be located in a city, surrounded by skyscrapers and neon lights. The buildings could be made of steel and glass, with holographic displays on the walls. The people could wear futuristic clothing, but they might also wear cowboy hats and boots to show their Western heritage. They might drive flying cars, but they might also ride horses to get around.
