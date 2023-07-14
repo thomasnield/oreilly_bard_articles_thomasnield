@@ -32,7 +32,7 @@ If we want to test out this math LaTex expression, we can use [an editor like th
 
 ![](https://latex.codecogs.com/svg.latex?%5Cdpi%7B120%7D%20%5Cdisplaystyle%20%5Cfrac%7Bx%5E2%7D%7B3%7D%20%5C) 
 
-Here's another one. Let's ask for the normal distributions probability density function (PDF) in math LaTex. 
+Here is another example. Let's ask for the normal distribution's probability density function (PDF) in math LaTex. 
 
 **PROMPT:**
 > Can you give me the math latex for a normal distribution pdf? 
