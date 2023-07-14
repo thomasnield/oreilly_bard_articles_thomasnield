@@ -28,7 +28,7 @@ Let's start simple. Say we want to take the fraction `x^2/3` and express it as m
 >
 >I hope this helps! Let me know if you have any other questions.
 
-If we want to test out this math LaTex expression, we can use [this editor](https://latexeditor.lagrida.com) to get a preview. Sure enough, when we render this expression we see everything is correct!
+If we want to test out this math LaTex expression, we can use [an editor like this one](https://latexeditor.lagrida.com) to get a preview. Sure enough, when we render this expression we see everything is correct!
 
 ![](https://latex.codecogs.com/svg.latex?%5Cdpi%7B120%7D%20%5Cdisplaystyle%20%5Cfrac%7Bx%5E2%7D%7B3%7D%20%5C) 
 
