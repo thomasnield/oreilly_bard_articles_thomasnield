@@ -55,9 +55,40 @@ Here's another one. Let's ask for the normal distributions probability density f
 >
 >I hope this helps! Let me know if you have any other questions.
 
-This renders as shown below. Not Bad! 
+This renders as shown below. 
 
 ![](https://latex.codecogs.com/svg.latex?%5Cdpi%7B120%7D%20f%28x%3B%20%5Cmu%2C%20%5Csigma%5E2%29%20%3D%20%5Cfrac%7B1%7D%7B%5Csqrt%7B2%20%5Cpi%20%5Csigma%5E2%7D%7D%20%5Cexp%5Cleft%28%20-%5Cfrac%7B%28x%20-%20%5Cmu%29%5E2%7D%7B2%20%5Csigma%5E2%7D%20%5Cright%29)
+
+Not bad! Let's now ask it to use Euler's number instead of the `exp()` function. 
+
+**PROMPT:**
+
+> Can you change the normal distribution PDF to use Euler's number instead of exp()?
+
+**RESPONSE:**
+
+>Sure, here is the math LaTeX for a normal distribution pdf using Euler's number instead of exp():
+>
+>[
+>f(x; \mu, \sigma^2) = \frac{1}{\sqrt{2 \pi \sigma^2}} \cdot e^{\frac{-(x - \mu)^2}{2 \sigma^2}}
+>]
+>
+>The only difference between this code and the previous code is that we have replaced the `exp()` function with the `e()` function. The e() function is Euler's number, which is a mathematical constant that is approximately equal to 2.718281828.
+>
+>I hope this helps! Let me know if you have any other questions.
+>
+>Here is a breakdown of the code:
+>
+>The `f(x; \mu, \sigma^2)` part of the code is the probability density function for a normal distribution.
+>The `\mu` part of the code is the mean of the distribution.
+>The `\sigma^2` part of the code is the variance of the distribution.
+>The `\frac{1}{\sqrt{2 \pi \sigma^2}}$` part of the code is the normalization constant for the distribution.
+>The `e^{\frac{-(x - \mu)^2}{2 \sigma^2}}$` part of the code is the Gaussian function.
+>The `\[` and `\]` symbols tell LaTeX that the math code should be displayed on a separate line. This is called "display math" mode.
+
+And it renders like this, spot on! 
+
+![](https://latex.codecogs.com/svg.latex?%5Cdpi%7B120%7D%20f%28x%3B%20%5Cmu%2C%20%5Csigma%5E2%29%20%3D%20%5Cfrac%7B1%7D%7B%5Csqrt%7B2%20%5Cpi%20%5Csigma%5E2%7D%7D%20%5Ccdot%20e%5E%7B%5Cfrac%7B-%28x%20-%20%5Cmu%29%5E2%7D%7B2%20%5Csigma%5E2%7D%7D) 
 
 Let's do something a bit more specific. When I learned math LaTex, I always had a difficult time remembering the syntax for matrices. Let's say I want to declare a matrix $ A $ that has three rows of elements. Rather than try to remember a specific syntax, I can just describe the dimensions of the matrix and what populates it. 
 
