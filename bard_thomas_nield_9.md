@@ -32,6 +32,34 @@ If we want to test out this math LaTex expression, we can use [this editor](http
 
 ![]([https://latex.codecogs.com/gif.latex?%5Cbegin%7Bpmatrix%7D%200%20%26%202%20%26%203%20%5C%5C%203%20%26%20%5Cboldsymbol%7B%5Csigma%7D%20%26%201%20%5C%5C%206%20%26%20%5Cboldsymbol%7B%5Ctheta%7D%20%26%205%20%5Cend%7Bpmatrix%7D](https://latex.codecogs.com/gif.download?%5Cfrac%7Bx%5E2%7D%7B3%7D)https://latex.codecogs.com/gif.download?%5Cfrac%7Bx%5E2%7D%7B3%7D) 
 
+Here's another one. Let's ask for the normal distributions probability density function (PDF) in math LaTex. 
+
+**PROMPT:**
+> Can you give me the math latex for a normal distribution pdf? 
+
+**RESPONSE:**
+
+>Sure, here is the math LaTeX for a normal distribution pdf:
+>
+>```
+>[
+>f(x; \mu, \sigma^2) = \frac{1}{\sqrt{2 \pi \sigma^2}} \exp\left( -\frac{(x - \mu)^2}{2 \sigma^2} \right)
+>]
+>```
+>
+>The `f(x; \mu, \sigma^2)` part of the code is the probability density function for a normal distribution. The \mu part of the code is the mean of the distribution. The \sigma^2 part of the code is the variance of the distribution.
+>
+>The `\frac{1}{\sqrt{2 \pi \sigma^2}}$` part of the code is the normalization constant for the distribution. The `\exp\left( -\frac{(x - \mu)^2}{2 \sigma^2} \right)` part of the code is the Gaussian function.
+>
+>The `\[` and `\]` symbols tell LaTeX that the math code should be displayed on a separate line. This is called "display math" mode.
+>
+>I hope this helps! Let me know if you have any other questions.
+
+This renders as shown below. Not Bad! 
+
+![](https://latex.codecogs.com/gif.latex?f%28x%3B%20%5Cmu%2C%20%5Csigma%5E2%29%20%3D%20%5Cfrac%7B1%7D%7B%5Csqrt%7B2%20%5Cpi%20%5Csigma%5E2%7D%7D%20%5Cexp%5Cleft%28%20-%5Cfrac%7B%28x%20-%20%5Cmu%29%5E2%7D%7B2%20%5Csigma%5E2%7D%20%5Cright%29)
+
+
 When I learned math LaTex, I always had a difficult time remembering the syntax for matrices. Let's say I want to declare a matrix $ A $ that has three rows of elements. 
 
 **PROMPT:**
@@ -49,6 +77,7 @@ When I learned math LaTex, I always had a difficult time remembering the syntax 
 >3 & 5 & 1 \\
 >6 & 4 & 5
 >\end{pmatrix}\]
+>```
 >
 >The `\mathbf` command is used to declare a matrix in LaTeX. The `\mathbf` command takes one argument: the name of the matrix. In this case, we have used the `\mathbf{A}` command to declare the matrix A.
 >
@@ -62,6 +91,4 @@ That math latex will render like this:
 
 ![](https://latex.codecogs.com/gif.latex?%5Cmathbf%7BA%7D%20%3D%20%5Cbegin%7Bpmatrix%7D%200%20%26%202%20%26%203%20%5C%5C%203%20%26%205%20%26%201%20%5C%5C%206%20%26%204%20%26%205%20%5Cend%7Bpmatrix%7D)
 
-Great! 
-
-
+Great! This is pretty cool. Let's say we want to replace the 
