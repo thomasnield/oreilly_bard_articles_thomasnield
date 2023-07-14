@@ -30,7 +30,7 @@ Let's say we want to take the fraction $ \frac{x^2}{3} $ and express it as math 
 
 If we want to test out this math LaTex expression, we can use [this editor](https://latexeditor.lagrida.com) to get a preview. Sure enough, when we render this expression we see everything is correct!
 
-![]([https://latex.codecogs.com/gif.latex?%5Cbegin%7Bpmatrix%7D%200%20%26%202%20%26%203%20%5C%5C%203%20%26%20%5Cboldsymbol%7B%5Csigma%7D%20%26%201%20%5C%5C%206%20%26%20%5Cboldsymbol%7B%5Ctheta%7D%20%26%205%20%5Cend%7Bpmatrix%7D](https://latex.codecogs.com/gif.download?%5Cfrac%7Bx%5E2%7D%7B3%7D)https://latex.codecogs.com/gif.download?%5Cfrac%7Bx%5E2%7D%7B3%7D) 
+![](https://latex.codecogs.com/svg.latex?%5Cdpi%7B120%7D%20%5Cdisplaystyle%20%5Cfrac%7Bx%5E2%7D%7B3%7D%20%5C) 
 
 Here's another one. Let's ask for the normal distributions probability density function (PDF) in math LaTex. 
 
@@ -57,10 +57,9 @@ Here's another one. Let's ask for the normal distributions probability density f
 
 This renders as shown below. Not Bad! 
 
-![](https://latex.codecogs.com/gif.latex?f%28x%3B%20%5Cmu%2C%20%5Csigma%5E2%29%20%3D%20%5Cfrac%7B1%7D%7B%5Csqrt%7B2%20%5Cpi%20%5Csigma%5E2%7D%7D%20%5Cexp%5Cleft%28%20-%5Cfrac%7B%28x%20-%20%5Cmu%29%5E2%7D%7B2%20%5Csigma%5E2%7D%20%5Cright%29)
+![](https://latex.codecogs.com/svg.latex?%5Cdpi%7B120%7D%20f%28x%3B%20%5Cmu%2C%20%5Csigma%5E2%29%20%3D%20%5Cfrac%7B1%7D%7B%5Csqrt%7B2%20%5Cpi%20%5Csigma%5E2%7D%7D%20%5Cexp%5Cleft%28%20-%5Cfrac%7B%28x%20-%20%5Cmu%29%5E2%7D%7B2%20%5Csigma%5E2%7D%20%5Cright%29)
 
-
-When I learned math LaTex, I always had a difficult time remembering the syntax for matrices. Let's say I want to declare a matrix $ A $ that has three rows of elements. 
+Let's do something a bit more specific. When I learned math LaTex, I always had a difficult time remembering the syntax for matrices. Let's say I want to declare a matrix $ A $ that has three rows of elements. Rather than try to remember a specific syntax, I can just describe the dimensions of the matrix and what populates it. 
 
 **PROMPT:**
 
@@ -87,10 +86,31 @@ When I learned math LaTex, I always had a difficult time remembering the syntax 
 >
 >I hope this helps! Let me know if you have any other questions.
 
-That math latex will render like this: 
+That math latex will render like this. Pretty cool that I was able to describe the matrix in plain English and it created the Math LaTex for me. 
 
-![](https://latex.codecogs.com/gif.latex?%5Cmathbf%7BA%7D%20%3D%20%5Cbegin%7Bpmatrix%7D%200%20%26%202%20%26%203%20%5C%5C%203%20%26%205%20%26%201%20%5C%5C%206%20%26%204%20%26%205%20%5Cend%7Bpmatrix%7D)
+![](https://latex.codecogs.com/svg.latex?%5Cdpi%7B120%7D%20%5Cmathbf%7BA%7D%20%3D%20%5Cbegin%7Bpmatrix%7D%200%20%26%202%20%26%203%20%5C%5C%203%20%26%205%20%26%201%20%5C%5C%206%20%26%204%20%26%205%20%5Cend%7Bpmatrix%7D%5C)
 
-![](https://latex.codecogs.com/svg.latex?%5Cdpi%7B120%7D%20f%28x%3B%20%5Cmu%2C%20%5Csigma%5E2%29%20%3D%20%5Cfrac%7B1%7D%7B%5Csqrt%7B2%20%5Cpi%20%5Csigma%5E2%7D%7D%20%5Cexp%5Cleft%28%20-%5Cfrac%7B%28x%20-%20%5Cmu%29%5E2%7D%7B2%20%5Csigma%5E2%7D%20%5Cright%29)
+Now let's say I want to replace two of the digits with two Greek symbols, and also to use square brackets rather than round brackets. 
 
-Great! This is pretty cool. Let's say we want to replace the 
+**PROMPT:**
+
+>That's good! Can you replace the 2 with sigma, and the 4 with delta? Also, can you use square brackets instead of round brackets? 
+
+**RESPONSE:**
+
+>Sure, here is the code to declare a matrix A in math LaTeX that is 3 x 3 in dimensions, where the first row is 0, σ, and 3. The second row is 3, 5, and 1. The third row is 6, δ, and 5:
+>
+>\mathbf{A} = \begin{bmatrix}
+>0 & \sigma & 3 \\
+>3 & 5 & 1 \\
+>6 & \delta & 5
+>\end{bmatrix}
+>
+>The only difference between this code and the previous code is that we have replaced the 2 with σ and the 4 with δ. We have also used square brackets instead of round brackets.
+>
+>I hope this helps! Let me know if you have any other questions.
+
+Here is how it now renders. Sure enough, we got exactly what we asked for! 
+
+![](https://latex.codecogs.com/svg.latex?%5Cdpi%7B120%7D%20%5Cmathbf%7BA%7D%20%3D%20%5Cbegin%7Bbmatrix%7D%200%20%26%20%5Csigma%20%26%203%20%5C%5C%203%20%26%205%20%26%201%20%5C%5C%206%20%26%20%5Cdelta%20%26%205%20%5Cend%7Bbmatrix%7D) 
+
