@@ -121,7 +121,7 @@ That math latex will render like this:
 
 ![](https://latex.codecogs.com/svg.latex?%5Cdpi%7B120%7D%20%5Cmathbf%7BA%7D%20%3D%20%5Cbegin%7Bpmatrix%7D%200%20%26%202%20%26%203%20%5C%5C%203%20%26%205%20%26%201%20%5C%5C%206%20%26%204%20%26%205%20%5Cend%7Bpmatrix%7D%5C)
 
-It is pretty cool that I was able to describe the matrix in plain English and it created the Math LaTex for me. Now let's say I want to replace two of the digits with two Greek symbols, and also to use square brackets rather than round brackets. 
+It is pretty cool that I was able to describe the matrix in plain English and it created the Math LaTex for me. Now let's say I want to replace two of the digits with two Greek symbols, and also use square brackets rather than round brackets. 
 
 **PROMPT:**
 
