@@ -1,14 +1,14 @@
-## Use Bard to Create Math LaTex 
+## Use Bard to Create Math LaTeX
 
-One of the more esoteric declarative languages out there is [LaTex for mathematics](https://en.wikibooks.org/wiki/LaTeX/Mathematics). It allows creating and formatting mathematical expressions for documents, books, and other publications. Increasingly it has found usage outside the halls of academia, especially since it is now supported on [Github markdown](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/writing-mathematical-expressions) and Jupyter notebooks. As more people become involved in machine learning and data science, math LaTex becomes increasingly useful to more folks. 
+One of the more esoteric declarative languages out there is [LaTeX for mathematics](https://en.wikibooks.org/wiki/LaTeX/Mathematics). It allows creating and formatting mathematical expressions for documents, books, and other publications. Increasingly it has found usage outside the halls of academia, especially since it is now supported on [Github markdown](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/writing-mathematical-expressions) and Jupyter notebooks. As more people become involved in machine learning and data science, math LaTeX becomes increasingly useful to more folks. 
 
-However, Math LaTex has a [bit of a learning curve](https://www.overleaf.com/learn/latex/Mathematical_expressions) and your time may be limited to learn yet something else. Thankfully, we can try to describe to Bard what we want to express mathematically and get a Math LaTex expression made for us. 
+However, Math LaTeX has a [bit of a learning curve](https://www.overleaf.com/learn/LaTeX/Mathematical_expressions) and your time may be limited to learn yet something else. Thankfully, we can try to describe to Bard what we want to express mathematically and get a Math LaTeX expression made for us. 
 
-Let's start simple. Say we want to take the fraction `x^2/3` and express it as math LaTex. Let's try to describe that expression to Bard and ask it to create some math LaTex out of it: 
+Let's start simple. Say we want to take the fraction `x^2/3` and express it as math LaTeX. Let's try to describe that expression to Bard and ask it to create some math LaTeX out of it: 
 
 **PROMPT:**
 
-> Show the fraction x^2 / 3 as math latex
+> Show the fraction x^2 / 3 as math LaTeX
 
 **RESPONSE:**
 
@@ -28,14 +28,14 @@ Let's start simple. Say we want to take the fraction `x^2/3` and express it as m
 >
 >I hope this helps! Let me know if you have any other questions.
 
-If we want to test out this math LaTex expression, we can use [an editor like this one](https://latexeditor.lagrida.com) to get a preview. Sure enough, when we render this expression we see everything is correct!
+If we want to test out this math LaTeX expression, we can use [an editor like this one](https://LaTeXeditor.lagrida.com) to get a preview. Sure enough, when we render this expression we see everything is correct!
 
-![](https://latex.codecogs.com/svg.latex?%5Cdpi%7B120%7D%20%5Cdisplaystyle%20%5Cfrac%7Bx%5E2%7D%7B3%7D%20%5C) 
+![](https://LaTeX.codecogs.com/svg.LaTeX?%5Cdpi%7B120%7D%20%5Cdisplaystyle%20%5Cfrac%7Bx%5E2%7D%7B3%7D%20%5C) 
 
-Here is another example. Let's ask for the normal distribution's probability density function (PDF) in math LaTex. 
+Here is another example. Let's ask for the normal distribution's probability density function (PDF) in math LaTeX. 
 
 **PROMPT:**
-> Can you give me the math latex for a normal distribution pdf? 
+> Can you give me the math LaTeX for a normal distribution pdf? 
 
 **RESPONSE:**
 
@@ -55,9 +55,9 @@ Here is another example. Let's ask for the normal distribution's probability den
 >
 >I hope this helps! Let me know if you have any other questions.
 
-If I copy that math LaTex into an editor, it renders like this: 
+If I copy that math LaTeX into an editor, it renders like this: 
 
-![](https://latex.codecogs.com/svg.latex?%5Cdpi%7B120%7D%20f%28x%3B%20%5Cmu%2C%20%5Csigma%5E2%29%20%3D%20%5Cfrac%7B1%7D%7B%5Csqrt%7B2%20%5Cpi%20%5Csigma%5E2%7D%7D%20%5Cexp%5Cleft%28%20-%5Cfrac%7B%28x%20-%20%5Cmu%29%5E2%7D%7B2%20%5Csigma%5E2%7D%20%5Cright%29)
+![](https://LaTeX.codecogs.com/svg.LaTeX?%5Cdpi%7B120%7D%20f%28x%3B%20%5Cmu%2C%20%5Csigma%5E2%29%20%3D%20%5Cfrac%7B1%7D%7B%5Csqrt%7B2%20%5Cpi%20%5Csigma%5E2%7D%7D%20%5Cexp%5Cleft%28%20-%5Cfrac%7B%28x%20-%20%5Cmu%29%5E2%7D%7B2%20%5Csigma%5E2%7D%20%5Cright%29)
 
 Not bad! Let's now ask it to use Euler's number instead of the `exp()` function. 
 
@@ -88,13 +88,13 @@ Not bad! Let's now ask it to use Euler's number instead of the `exp()` function.
 
 And it renders like this, spot on! 
 
-![](https://latex.codecogs.com/svg.latex?%5Cdpi%7B120%7D%20f%28x%3B%20%5Cmu%2C%20%5Csigma%5E2%29%20%3D%20%5Cfrac%7B1%7D%7B%5Csqrt%7B2%20%5Cpi%20%5Csigma%5E2%7D%7D%20%5Ccdot%20e%5E%7B%5Cfrac%7B-%28x%20-%20%5Cmu%29%5E2%7D%7B2%20%5Csigma%5E2%7D%7D) 
+![](https://LaTeX.codecogs.com/svg.LaTeX?%5Cdpi%7B120%7D%20f%28x%3B%20%5Cmu%2C%20%5Csigma%5E2%29%20%3D%20%5Cfrac%7B1%7D%7B%5Csqrt%7B2%20%5Cpi%20%5Csigma%5E2%7D%7D%20%5Ccdot%20e%5E%7B%5Cfrac%7B-%28x%20-%20%5Cmu%29%5E2%7D%7B2%20%5Csigma%5E2%7D%7D) 
 
-Let's do something a bit more specific. When I learned math LaTex, I always had a difficult time remembering the syntax for matrices. Let's say I want to declare a matrix *A* that has three rows of elements. Rather than try to remember the syntax, I can just describe the dimensions of the matrix and what populates it. 
+Let's do something a bit more specific. When I learned math LaTeX, I always had a difficult time remembering the syntax for matrices. Let's say I want to declare a matrix *A* that has three rows of elements. Rather than try to remember the syntax, I can just describe the dimensions of the matrix and what populates it. 
 
 **PROMPT:**
 
->Declare a matrix A in math latex that is  3 x 3 in dimensions, where the first row is 0,2, and 3. The second row is 3, 5, and 1. The third row is 6, 4, and 5. 
+>Declare a matrix A in math LaTeX that is  3 x 3 in dimensions, where the first row is 0,2, and 3. The second row is 3, 5, and 1. The third row is 6, 4, and 5. 
 
 **RESPONSE:**
 
@@ -117,11 +117,11 @@ Let's do something a bit more specific. When I learned math LaTex, I always had 
 >
 >I hope this helps! Let me know if you have any other questions.
 
-That math latex will render like this: 
+That math LaTeX will render like this: 
 
-![](https://latex.codecogs.com/svg.latex?%5Cdpi%7B120%7D%20%5Cmathbf%7BA%7D%20%3D%20%5Cbegin%7Bpmatrix%7D%200%20%26%202%20%26%203%20%5C%5C%203%20%26%205%20%26%201%20%5C%5C%206%20%26%204%20%26%205%20%5Cend%7Bpmatrix%7D%5C)
+![](https://LaTeX.codecogs.com/svg.LaTeX?%5Cdpi%7B120%7D%20%5Cmathbf%7BA%7D%20%3D%20%5Cbegin%7Bpmatrix%7D%200%20%26%202%20%26%203%20%5C%5C%203%20%26%205%20%26%201%20%5C%5C%206%20%26%204%20%26%205%20%5Cend%7Bpmatrix%7D%5C)
 
-It is pretty cool that I was able to describe the matrix in plain English and it created the Math LaTex for me. Now let's say I want to replace two of the digits with two Greek symbols, and also use square brackets rather than round brackets. 
+It is pretty cool that I was able to describe the matrix in plain English and it created the Math LaTeX for me. Now let's say I want to replace two of the digits with two Greek symbols, and also use square brackets rather than round brackets. 
 
 **PROMPT:**
 
@@ -143,7 +143,7 @@ It is pretty cool that I was able to describe the matrix in plain English and it
 
 Here is how it now renders. Sure enough, we got exactly what we asked for! 
 
-![](https://latex.codecogs.com/svg.latex?%5Cdpi%7B120%7D%20%5Cmathbf%7BA%7D%20%3D%20%5Cbegin%7Bbmatrix%7D%200%20%26%20%5Csigma%20%26%203%20%5C%5C%203%20%26%205%20%26%201%20%5C%5C%206%20%26%20%5Cdelta%20%26%205%20%5Cend%7Bbmatrix%7D) 
+![](https://LaTeX.codecogs.com/svg.LaTeX?%5Cdpi%7B120%7D%20%5Cmathbf%7BA%7D%20%3D%20%5Cbegin%7Bbmatrix%7D%200%20%26%20%5Csigma%20%26%203%20%5C%5C%203%20%26%205%20%26%201%20%5C%5C%206%20%26%20%5Cdelta%20%26%205%20%5Cend%7Bbmatrix%7D) 
 
 You can also tell it to replace an element at a specific location in the matrix. 
 
@@ -167,6 +167,6 @@ You can also tell it to replace an element at a specific location in the matrix.
 
 Sure enough, our render shows success: 
 
-![](https://latex.codecogs.com/svg.latex?%5Cdpi%7B120%7D%20%5Cmathbf%7BA%7D%20%3D%20%5Cbegin%7Bbmatrix%7D%200%20%26%20%5Csigma%20%26%203%20%5C%5C%203%20%26%205%20%26%202x%20&plus;%201%20%5C%5C%206%20%26%20%5Cdelta%20%26%205%20%5Cend%7Bbmatrix%7D) 
+![](https://LaTeX.codecogs.com/svg.LaTeX?%5Cdpi%7B120%7D%20%5Cmathbf%7BA%7D%20%3D%20%5Cbegin%7Bbmatrix%7D%200%20%26%20%5Csigma%20%26%203%20%5C%5C%203%20%26%205%20%26%202x%20&plus;%201%20%5C%5C%206%20%26%20%5Cdelta%20%26%205%20%5Cend%7Bbmatrix%7D) 
 
-In conclusion, we can use Bard to navigate esoteric languages like math LaTex and describe verbally what we want to create. Along the way, we can learn this syntax by studying the outputs, and copy/paste the expressions into their destination document. We can also iterate and manipulate changes to the math LaTex code by using language we are comfortable with. It is like having your own writing assistant who knows mathematical notation *and* math LaTex! 
+In conclusion, we can use Bard to navigate esoteric languages like math LaTeX and describe verbally what we want to create. Along the way, we can learn this syntax by studying the outputs, and copy/paste the expressions into their destination document. We can also iterate and manipulate changes to the math LaTeX code by using language we are comfortable with. It is like having your own writing assistant who knows mathematical notation *and* math LaTeX! 
