@@ -30,4 +30,38 @@ Let's say we want to take the fraction $ \frac{x^2}{3} $ and express it as math 
 
 If we want to test out this math LaTex expression, we can use [this editor](https://latexeditor.lagrida.com) to get a preview. Sure enough, when we render this expression we see everything is correct!
 
-![](https://latex.codecogs.com/gif.latex?%5Cbegin%7Bpmatrix%7D%200%20%26%202%20%26%203%20%5C%5C%203%20%26%20%5Cboldsymbol%7B%5Csigma%7D%20%26%201%20%5C%5C%206%20%26%20%5Cboldsymbol%7B%5Ctheta%7D%20%26%205%20%5Cend%7Bpmatrix%7D) 
+![]([https://latex.codecogs.com/gif.latex?%5Cbegin%7Bpmatrix%7D%200%20%26%202%20%26%203%20%5C%5C%203%20%26%20%5Cboldsymbol%7B%5Csigma%7D%20%26%201%20%5C%5C%206%20%26%20%5Cboldsymbol%7B%5Ctheta%7D%20%26%205%20%5Cend%7Bpmatrix%7D](https://latex.codecogs.com/gif.download?%5Cfrac%7Bx%5E2%7D%7B3%7D)https://latex.codecogs.com/gif.download?%5Cfrac%7Bx%5E2%7D%7B3%7D) 
+
+When I learned math LaTex, I always had a difficult time remembering the syntax for matrices. Let's say I want to declare a matrix $ A $ that has three rows of elements. 
+
+**PROMPT:**
+
+>Declare a matrix A in math latex that is  3 x 3 in dimensions, where the first row is 0,2, and 3. The second row is 3, 5, and 1. The third row is 6, 4, and 5. 
+
+**RESPONSE:**
+
+>
+>Sure, here is the code to declare a matrix A in math LaTeX that is 3 x 3 in dimensions, where the first row is 0,2, and 3. The second row is 3, 5, and 1. The third row is 6, 4, and 5:
+>
+>```
+>\[\mathbf{A} = \begin{pmatrix}
+>0 & 2 & 3 \\
+>3 & 5 & 1 \\
+>6 & 4 & 5
+>\end{pmatrix}\]
+>
+>The `\mathbf` command is used to declare a matrix in LaTeX. The `\mathbf` command takes one argument: the name of the matrix. In this case, we have used the `\mathbf{A}` command to declare the matrix A.
+>
+>The elements of the matrix are separated by commas. The rows of the matrix are separated by \\ symbols.
+>
+>The \[ and \] symbols tell LaTeX that the math code should be displayed on a separate line. This is called "display math" mode.
+>
+>I hope this helps! Let me know if you have any other questions.
+
+That math latex will render like this: 
+
+![](https://latex.codecogs.com/gif.latex?%5Cmathbf%7BA%7D%20%3D%20%5Cbegin%7Bpmatrix%7D%200%20%26%202%20%26%203%20%5C%5C%203%20%26%205%20%26%201%20%5C%5C%206%20%26%204%20%26%205%20%5Cend%7Bpmatrix%7D)
+
+Great! 
+
+
