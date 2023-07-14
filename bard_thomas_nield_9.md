@@ -90,7 +90,7 @@ And it renders like this, spot on!
 
 ![](https://latex.codecogs.com/svg.latex?%5Cdpi%7B120%7D%20f%28x%3B%20%5Cmu%2C%20%5Csigma%5E2%29%20%3D%20%5Cfrac%7B1%7D%7B%5Csqrt%7B2%20%5Cpi%20%5Csigma%5E2%7D%7D%20%5Ccdot%20e%5E%7B%5Cfrac%7B-%28x%20-%20%5Cmu%29%5E2%7D%7B2%20%5Csigma%5E2%7D%7D) 
 
-Let's do something a bit more specific. When I learned math LaTex, I always had a difficult time remembering the syntax for matrices. Let's say I want to declare a matrix *A* that has three rows of elements. Rather than try to remember a specific syntax, I can just describe the dimensions of the matrix and what populates it. 
+Let's do something a bit more specific. When I learned math LaTex, I always had a difficult time remembering the syntax for matrices. Let's say I want to declare a matrix *A* that has three rows of elements. Rather than try to remember the syntax, I can just describe the dimensions of the matrix and what populates it. 
 
 **PROMPT:**
 
