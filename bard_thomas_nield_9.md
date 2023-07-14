@@ -55,7 +55,7 @@ Here's another one. Let's ask for the normal distributions probability density f
 >
 >I hope this helps! Let me know if you have any other questions.
 
-This renders as shown below. 
+If I copy that math LaTex into an editor, it renders like this: 
 
 ![](https://latex.codecogs.com/svg.latex?%5Cdpi%7B120%7D%20f%28x%3B%20%5Cmu%2C%20%5Csigma%5E2%29%20%3D%20%5Cfrac%7B1%7D%7B%5Csqrt%7B2%20%5Cpi%20%5Csigma%5E2%7D%7D%20%5Cexp%5Cleft%28%20-%5Cfrac%7B%28x%20-%20%5Cmu%29%5E2%7D%7B2%20%5Csigma%5E2%7D%20%5Cright%29)
 
